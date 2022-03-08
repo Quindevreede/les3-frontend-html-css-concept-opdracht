@@ -373,7 +373,6 @@ button {
 
 .message {
     width: 100%;
-    padding: 15px 0 150px 20px;
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
@@ -431,7 +430,7 @@ footer {
 
     .articles {
         background-color: #f2f2f2;
-        padding-top: 120px; /* je kunt ook 5px(top) 0px (right) 10px (bottom) 0px (left) doen */
+        padding-top: 150px; /* je kunt ook 5px(top) 0px (right) 10px (bottom) 0px (left) doen */
         padding-bottom: 70px; /* Je doet eigenlijk nooit height bij een box omdat je dan in problemen komt met vergoten of verkleinen van je pagina (bijv letters buiten je area*/
         display: flex;
         flex-direction: column;
@@ -441,7 +440,6 @@ footer {
 
     .articles .background-word p {
         position: absolute;
-        top: 0px;
         left: 50%;
         transform: translate(-50%, 0);
         color: white;
@@ -564,7 +562,6 @@ footer {
 
     .message {
         width: 300%;
-        padding: 15px 0 150px 20px;
         height: 150px;
         padding: 12px 20px;
         box-sizing: border-box;
